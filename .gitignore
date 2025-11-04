@@ -1,0 +1,45 @@
+# Jarvis_V3 — .gitignore
+
+Byte-compiled / optimized / DLL files
+
+pycache/ *.py[cod] *$py.class
+
+# Virtual environment
+
+venv/ .env/ .venv/
+
+# OS / Editor files
+
+.DS_Store Thumbs.db .idea/ .vscode/
+
+# Eel cache / build artifacts
+
+eel_cache/
+
+# Face data and temp images
+
+backend/authorized_faces/ backend/temp/
+
+# Sensitive data and credentials
+
+backend/cookie.json backend/.key backend/.pem backend/config_local.py
+
+# Logs and temporary files
+
+*.log *.tmp
+
+# Compiled models / weights
+
+*.h5 *.pt *.pth *.onnx
+
+# Jupyter notebooks checkpoints
+
+.ipynb_checkpoints/
+
+# Frontend build output (if later compiled)
+
+frontend/dist/ frontend/node_modules/
+
+# Python packaging
+
+build/ dist/ *.egg-info/

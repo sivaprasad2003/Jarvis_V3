@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jarvis V3</title>
+    <script type="text/javascript" src="/eel.js"></script>
+  </head>
+  <body>
+    <h1>Jarvis V3</h1>
+    <div>
+      <input id="query" placeholder="Ask Jarvis..." />
+      <button onclick="ask()">Ask</button>
+    </div>
+    <pre id="output"></pre>
+
+    <script>
+      async function ask(){
+        const q = document.getElementById("query").value;
+        const resp = await eel.ask_chat(q)();
+        document.getElementById("output").textContent = resp;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+eel
+speechrecognition
+pyttsx3
+opencv-python
+numpy
+cvlib
+face-recognition
+requests
+flask  # optional for HTTP endpoints
