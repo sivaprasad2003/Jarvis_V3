@@ -3,9 +3,7 @@ import eel
 import threading
 from .speech import speak, listen
 from .chat_integration import ask
-from .config import HOTWORD_TRIGGER
-
-FRONTEND_DIR = '../frontend'
+from .config import HOTWORD_TRIGGER, FRONTEND_DIR
 
 eel.init(FRONTEND_DIR)
 
