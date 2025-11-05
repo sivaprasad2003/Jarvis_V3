@@ -8,7 +8,7 @@ import os
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY")
 
 # HuggingFace cookie path (optional, from V2 repo)
-HF_COOKIE_PATH = os.getenv("HF_COOKIE_PATH", "backend/cookie.json")
+HF_COOKIE_PATH = os.getenv("HF_COOKIE_PATH", "cookie.json")
 
 # Hotword model / constants
 HOTWORD_TRIGGER = "jarvis"
